@@ -6,7 +6,7 @@ import sudoku.Sudoku;
 
 public class SudokuTest{
 	@Test
-	public static void checkGetSquare(){
+	public void checkGetSquare(){
 	String builder = " 6 29  4 ";
 	builder +=" 9 8    1";
 	builder +="2   43 6 ";
